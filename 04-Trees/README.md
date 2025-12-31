@@ -1,7 +1,10 @@
 [![](https://img.shields.io/badge/c++-black?logo=c++&style=for-the-badge)](https://learnxinyminutes.com/c++/)
 
 ## Trees
-Implementation of binary and avl trees.
+Implementation of the following trees:
+- binary trees
+- avl trees
+- splay trees
 
 ### Build
 ```shell
@@ -13,5 +16,7 @@ cmake --build build
 
 ### Run
 ```shell
-./build/trees/binary-search-tree
+./build/binary-search-tree
+./build/avl-tree
+./build/splay-tree
 ```
