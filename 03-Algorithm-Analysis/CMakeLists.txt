@@ -29,43 +29,30 @@ elseif(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
   add_compile_options(/W4)
 endif()
 
-# target binary-search-tree
+# target test-max-sum
 # ----------------------------------------------------------------------------------------
-set(BINARY_SEARCH_TREE_EXECUTABLE binary-search-tree)
+set(BINARY_SEARCH_TREE_EXECUTABLE test-max-sum)
 add_executable(${BINARY_SEARCH_TREE_EXECUTABLE}
-  "${CMAKE_SOURCE_DIR}/src/01-TestBinarySearchTree.cc"
-  "${CMAKE_SOURCE_DIR}/src/01-BinarySearchTree.h"
-  "${CMAKE_SOURCE_DIR}/src/dsexceptions.h"
+  "${CMAKE_SOURCE_DIR}/src/01-TestMaxSum.cc"
 )
 
-# target avl-tree
+# target test-binary-search
 # ----------------------------------------------------------------------------------------
-set(AVL_TREE_EXECUTABLE avl-tree)
+set(AVL_TREE_EXECUTABLE test-binary-search)
 add_executable(${AVL_TREE_EXECUTABLE}
-  "${CMAKE_SOURCE_DIR}/src/02-TestAvlTree.cc"
-  "${CMAKE_SOURCE_DIR}/src/02-AvlTree.h"
-  "${CMAKE_SOURCE_DIR}/src/dsexceptions.h"
+  "${CMAKE_SOURCE_DIR}/src/02-TestBinarySearch.cc"
 )
 
-# target splay-tree
+# target test-euclid
 # ----------------------------------------------------------------------------------------
-set(SPLAY_TREE_EXECUTABLE splay-tree)
+set(SPLAY_TREE_EXECUTABLE test-euclid)
 add_executable(${SPLAY_TREE_EXECUTABLE}
-  "${CMAKE_SOURCE_DIR}/src/03-TestSplayTree.cc"
-  "${CMAKE_SOURCE_DIR}/src/03-SplayTree.h"
-  "${CMAKE_SOURCE_DIR}/src/dsexceptions.h"
+  "${CMAKE_SOURCE_DIR}/src/03-TestEuclid.cc"
 )
 
-# target map-demo
+# target test-exponentiation
 # ----------------------------------------------------------------------------------------
-set(SPLAY_TREE_EXECUTABLE map-demo)
+set(SPLAY_TREE_EXECUTABLE test-exponentiation)
 add_executable(${SPLAY_TREE_EXECUTABLE}
-  "${CMAKE_SOURCE_DIR}/src/04-MapDemo.cc"
-)
-
-# target word-ladder
-# ----------------------------------------------------------------------------------------
-set(SPLAY_TREE_EXECUTABLE word-ladder)
-add_executable(${SPLAY_TREE_EXECUTABLE}
-  "${CMAKE_SOURCE_DIR}/src/05-WordLadder.cc"
+  "${CMAKE_SOURCE_DIR}/src/04-TestExponentiation.cc"
 )

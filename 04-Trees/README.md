@@ -2,9 +2,14 @@
 
 ## Trees
 Implementation of the following trees:
-- binary trees
-- avl trees
-- splay trees
+- binary tree
+- avl tree
+- splay tree
+
+## Maps and Sets
+Implementation of:
+- Map demo
+- Word ladder
 
 ### Build
 ```shell
@@ -19,4 +24,6 @@ cmake --build build
 ./build/binary-search-tree
 ./build/avl-tree
 ./build/splay-tree
+./build/map-demo
+./build/word-ladder
 ```
