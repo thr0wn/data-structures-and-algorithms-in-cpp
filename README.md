@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/c++-black?logo=c++&style=for-the-badge)](https://learnxinyminutes.com/c++/)
+[![](https://img.shields.io/badge/c++-black?logo=cplusplus&style=for-the-badge)](https://learnxinyminutes.com/c++/)
 
 ## Data Structures and Algorithms Analysis in C++
 > Mark Allen Weiss
